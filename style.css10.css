@@ -1,0 +1,32 @@
+body {
+    font-family : arial;
+    background: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.card {
+    background: bisque;
+    padding: 35px;
+    border-radius: 13px;
+    text-align: center;
+    width: 320px;
+    box-shadow: 0 0 10px rgba(red, green, blue, alpha);
+}
+h1 {
+    margin: 0;
+}
+p {
+    color: grey;
+}
+a {
+    display: inline-block;
+    margin-top: 12px;
+    padding: 12px 17px;
+    background: #222;
+    color: beige;
+    text-decoration: none;
+    border-radius: 7px;
+}

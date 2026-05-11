@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.8;
+    color: #807e7e;
+    background: #f8f8f8ad;
+}
+.container {
+    width: 92%;
+    max-width: 1002px;
+    margin: auto;
+}
+header {
+    background: #204d8b;
+    color: beige;
+    padding: 73px 0;
+    text-align: center;
+}
+header h1 {
+    font-size: 45px;
+    margin-bottom: 12px;
+}
+header p {
+    font-size: 20px;
+    margin-bottom: 23px;
+}
+.btn {
+    display: inline-block;
+    padding: 14px 25px;
+    background: bisque;
+    color: #250d0d;
+    text-decoration: none;
+    border-radius: 7px;
+    font-weight: bold;
+}
+section {
+    padding: 63px 0;
+}
+.about {
+    background: blanchedalmond;
+    text-align: center;
+}
+.about h2,.services h2,.contact h2 {
+    margin-bottom: 17px;
+    font-size: 30px;
+}
+.services {
+    background: #07075822;
+    text-align: center;
+    padding: 65px 0;
+}
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 23px;
+    margin-top: 33px;
+    flex-wrap: nowrap;
+}
+.card {
+    background: beige;
+    padding: 22px;
+    width: 222px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(red, green, blue, alpha);
+    text-align: center;
+}
+.card h3 {
+    margin-bottom: 15px;
+    min-height: 50px;
+}
+.card p {
+    font-size: 17px;
+}
+.contact {
+    background: bisque;
+    text-align: center;
+}
+.footer {
+    background: #03214b;
+    color: beige;
+    text-align: center;
+    padding: 23px 0;
+}
+.card {
+    width: 105%;
+}    
+
