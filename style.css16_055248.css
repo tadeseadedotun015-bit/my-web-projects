@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #dfa1a1;
+    color: #534a4a;
+}
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 43px;
+    padding: 82px 23px;
+    background: bisque;
+    flex-wrap: wrap;
+}
+.hero-text {
+    max-width: 402px;
+}
+.hero-text h1 {
+    font-size: 50px;
+    margin-bottom: 17px;
+}
+.hero-text p {
+    margin-bottom: 23px;
+    font-size: 20px;
+}
+button {
+    padding: 14px 27px;
+    border: none;
+    background: #0f1930;
+    color: beige;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.hero-image img {
+    width: 200px;
+    max-width: 102%;
+    border-radius: 12px;
+}
+.features {
+    text-align: center;
+    padding: 62px 22px;
+}
+.feature-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 22px;
+    flex-wrap: wrap;
+    margin-top: 32px;
+}
+.feature {
+    background: wheat;
+    padding: 32px;
+    width: 202px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(red, green, blue, alpha);
+}
+.feature-box p {
+    margin: 17px 0;
+}
+.price {
+    text-align: center;
+    padding: 62px 20px;
+}
+.price h2 {
+    font-size: 42px;
+    margin-bottom: 22px;
+}
+footer {
+    background: #031235;
+    color: azure;
+    text-align: center;
+    padding: 22px;
+}
